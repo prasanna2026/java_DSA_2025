@@ -7,7 +7,7 @@ public class Count_the_set_bits {
         int n = sc.nextInt();
         int cnt = 0;
         while(n>0){
-            n = n&(n-1);
+            n = n&(n-1); 
             cnt++;
         }
         System.out.print("Number of set bits : "+cnt);
