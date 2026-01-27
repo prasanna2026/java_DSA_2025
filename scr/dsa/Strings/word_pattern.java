@@ -10,7 +10,7 @@ public class word_pattern {
     }
 
     public static boolean wordpattern(String pattern,String s){
-        String[] arr = s.split(" ");
+        String[] arr = s.split(" +");
         if(pattern.length()!=arr.length){
             return false;
         }
